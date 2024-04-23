@@ -3,6 +3,8 @@
 ***Add a WHAT TO COLLECT TABLE FOR EACH ENVIRONMENT
 ***Add a NEXT STEPS SECTION
 
+https://datadoghq.atlassian.net/wiki/spaces/TS/pages/328439533/Zendesk+Chat+Information+Collecting+Questions+to+ask#Containers
+
 ## Prequisites:
 
 ### Docker
