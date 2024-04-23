@@ -1,0 +1,39 @@
+{
+    "family": "Sandbox-CONT-APM-Python",
+    "networkMode": "awsvpc",
+    "containerDefinitions": [
+        {
+            "name": "<Name_of_Choice>",
+            "image": "image_name",
+            "dockerLabels": {
+                "com.datadoghq.ad.check_names": "[\"http_check\"]",
+                "com.datadoghq.ad.init_configs": "[{}]",
+                "com.datadoghq.ad.instances": "[{\"url\": \"http://localhost:3000/\", \"name\":\"<Name_of_Choice>\"}]"
+            }
+        },
+        {
+            "name": "datadog-agent",
+            "image": "public.ecr.aws/datadog/agent:latest",
+            "essential": true,
+            "environment": [
+                {
+                    "name": "DD_API_KEY",
+                    "value": "XXX"
+                },
+                {
+                    "name": "DD_APM_ENABLED",
+                    "value": "true"
+                },
+                {
+                    "name": "ECS_FARGATE",
+                    "value": "true"
+                }
+            ]
+        }
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "256",
+    "memory": "512"
+}
