@@ -1,4 +1,4 @@
-### Prerequisites: 
+# Prerequisites: 
 
 - Access to an AWS Account:
     Datadog provides access to our Sandbox Account. [Read more about how to access that here](https://datadoghq.atlassian.net/wiki/spaces/TS/pages/328434517/AWS+Azure+GCP+Sandbox+Environments+for+GSE).
