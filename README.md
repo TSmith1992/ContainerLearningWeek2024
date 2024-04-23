@@ -1,5 +1,8 @@
 # ContainerLearningWeek2024
 
+***Add a WHAT TO COLLECT TABLE FOR EACH ENVIRONMENT
+***Add a NEXT STEPS SECTION
+
 ## Prequisites:
 
 ### Docker
