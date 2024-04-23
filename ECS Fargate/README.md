@@ -14,4 +14,8 @@
   
 - A Docker Account
   
-- A Datadog Account  
+- A Datadog Account
+
+## Bonus: 
+
+[This is link for the Flask App we will ultimately be pushing to the Amazon ECR](https://gallery.ecr.aws/y0r6d5e5/containerlearningweekfargate)
