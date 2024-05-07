@@ -35,6 +35,13 @@ Ensure minikube is installed on your device
 https://helm.sh/docs/intro/install/
 ```
 
+### Amazon Web Services 
+
+Ensure you have a working Amazon Web Services account
+```
+https://portal.aws.amazon.com/billing/signup
+```
+
 ### Other Essentials
 
 - A working terminal with cURL installed
