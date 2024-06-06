@@ -5,7 +5,7 @@
 
 https://datadoghq.atlassian.net/wiki/spaces/TS/pages/328439533/Zendesk+Chat+Information+Collecting+Questions+to+ask#Containers
 
-## Prequisites:
+## Prerequisites:
 
 ### Docker
 
