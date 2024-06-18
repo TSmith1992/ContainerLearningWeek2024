@@ -111,3 +111,16 @@ Then redeploy the agents:
 helm upgrade datadog -f values.yaml datadog/datadog
 ```
 This will schedule a cluster check that dispatches the http_check onto a single node agent. From there, the node agent will run the http_check against the service created(``notes-service.notes.svc.cluster.local/notes``)
+
+### Teardown instructions
+Delete Kubernetes resources created:
+```
+kubectl delete -f notes.yaml
+kubectl delete -f notes-service.yaml
+helm uninstall datadog
+```
+Delete minikube cluster:
+```
+minikube stop -p multinode
+minikubt delete -p multinode
+```
