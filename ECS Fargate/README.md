@@ -18,4 +18,4 @@
 
 ## Bonus: 
 
-[This is link for the Flask App we will ultimately be pushing to the Amazon ECR](https://gallery.ecr.aws/y0r6d5e5/containerlearningweekfargate)
+[This is link for the Flask App we will ultimately be pushing to the Amazon ECR](https://us-east-1.console.aws.amazon.com/ecr/repositories/public/333704128329/m1_cont_learning_week_dd?region=us-east-1)
